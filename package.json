@@ -9,7 +9,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build && workbox generate:sw",
+    "build": "ng build && mv dist/assets/manifest.json dist/ && workbox generate:sw",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
